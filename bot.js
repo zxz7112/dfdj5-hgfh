@@ -962,4 +962,4 @@ client.on('message', message => {
 });
 
 
-client.login("NTM2OTQ1MDM0NjU0OTA4NDE2.Dz70TQ.IZ6R1QQ3Z0Sd7uuZyQp-AQQp5kc");
+client.login(process.env.Bot_Tokenc);
