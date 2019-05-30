@@ -696,7 +696,7 @@ if(message.content.split(' ')[0] == '*bc') {
 })
 
  client.on('message', message => {
-    if (message.content.startsWith("رابط")) {
+    if (message.content.startsWith("رابط السيرفر")) {
 
   message.channel.createInvite({
         thing: true,
